@@ -7,6 +7,27 @@
   gap: 20px;
 }
 
+/* Navigation styles */
+.main-nav ul {
+  list-style: none;        /* remove bullets */
+  display: flex;           /* THIS makes it horizontal */
+  gap: 20px;               /* space between items */
+  padding: 0;
+  margin: 10px 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: purple;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  color: #c47a2c;          /* hover effect like the screenshot */
+}
+
+/* Mobile menu styles */
+
 .menu {
   position: relative;
 }
@@ -48,6 +69,7 @@
     
 }
 
+/* Intro image styles */
 .img1{
   background-image:url('https://dq5pwpg1q8ru0.cloudfront.net/2020/10/30/13/20/05/03100698-7b5b-4cd4-9b79-c245c0d7c1d8/St.%20Mary%20the%20Virgin%20photo%20%233.png');
   background-position: center;
@@ -74,7 +96,7 @@
 }
 
 
-
+/* Gallery styles */
 .wrapper {
   display: flex;
   justify-content: space-evenly;   /* center the 3 images */
@@ -97,6 +119,8 @@
   display: block;
 }
 
+/* Events section */
+
 .events{
   display: flex;
   justify-content: center;
@@ -107,10 +131,14 @@
   font-size: xx-large;
 }
 
+
 .footer{
   color: white;
   background-color: grey;
+  border-radius: 10px;
 }
+
+/* Icons section */
 
 .icons  {
   font-size: 48px;
@@ -119,6 +147,7 @@
   gap: 100px;
   justify-content: center;
   margin-top: 20px;
+  border: 1px solid rgb(197, 189, 189);
 }
 
 
@@ -138,4 +167,13 @@
   color: purple;
   font-weight: 900;
   text-align: center;
+}
+
+/*EVENTS Intro image styles */
+
+.introimg{
+  background-image:url('https://dq5pwpg1q8ru0.cloudfront.net/2025/04/24/01/58/15/4ff66abb-7437-45fa-ae7e-b8e3e7bdfdfa/SMI%20Front.jpg');
+   background-position: center; 
+   background-size: cover;
+   min-height: 35vh;
 }
