@@ -177,3 +177,12 @@
    background-size: cover;
    min-height: 35vh;
 }
+
+.imgnews{
+    background-image:url('https://dq5pwpg1q8ru0.cloudfront.net/2020/10/29/15/33/10/13bc4908-d575-4b3a-953c-f7b7f05afff3/6A22136A-C6BF-477A-9DBD-2A43ED3D6713.jpeg'); 
+    background-position: center;
+    min-height: 50vh;
+    background-position: center; 
+    background-size: cover;
+    min-height: 35vh;
+}
